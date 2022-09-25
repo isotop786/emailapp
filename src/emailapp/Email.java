@@ -16,5 +16,6 @@ public class Email {
     {
         this.firstName = firstName;
         this.lastName = lastName;
+        System.out.printf("New Employee: %s %s",this.firstName, this.lastName);
     }
 }
